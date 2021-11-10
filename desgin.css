@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 70px;
+    transition: 1s;
+}
+nav:hover{
+    height: 90px;
+}
+.heading{
+    font-family: 'Potta One', cursive;
+    color: white;
+    font-size: 35px;
+    transition: 1s;
+}
+.heading:hover{
+    color: rgb(95, 95, 255);
+}
+.copy{
+    color: antiquewhite;
+    font-size: 40px;
+    transition: 1s;
+}
+.copy:hover{
+    color: rgb(95, 95, 255);
+}
+.container{
+    margin: auto;
+    width: 70%;
+}
